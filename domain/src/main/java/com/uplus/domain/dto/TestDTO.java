@@ -4,9 +4,9 @@ import lombok.Data;
 
 @Data
 public class TestDTO {
-    private String name;
-    private String devname;
-    private String hdpno;
-    private String birthdate;
-    private String content;
+    String name;
+    String devname;
+    String hdpno;
+    String birthdate;
+    String content;
 }
