@@ -1,0 +1,1 @@
+[engine:junit-jupiter]/[class:com.uplus.domain.DomainApplicationTests]/[method:contextLoads()]
