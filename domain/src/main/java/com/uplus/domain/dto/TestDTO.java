@@ -8,5 +8,5 @@ public class TestDTO {
     public String devname;
     public String hdpno;
     public String birthdate;
-    public String content;
+    public String content; 
 }
