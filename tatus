@@ -1,0 +1,1332 @@
+[33mcommit 44c579bbd1f8b69bd186639c9157b73c0fd7bf2e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: IkhoonShin <ikhoon414@gmail.com>
+Date:   Thu Apr 14 20:39:42 2022 +0900
+
+    delete?
+
+[1mdiff --git a/domain/bin/main/com/uplus/domain/DomainApplication.class b/domain/bin/main/com/uplus/domain/DomainApplication.class[m
+[1mdeleted file mode 100644[m
+[1mindex 588a86b..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/DomainApplication.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/controller/TestController.class b/domain/bin/main/com/uplus/domain/controller/TestController.class[m
+[1mdeleted file mode 100644[m
+[1mindex 8a49326..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/controller/TestController.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/dto/TestDTO.class b/domain/bin/main/com/uplus/domain/dto/TestDTO.class[m
+[1mdeleted file mode 100644[m
+[1mindex 28c2c43..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/dto/TestDTO.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mapper/TestMapper.class b/domain/bin/main/com/uplus/domain/mapper/TestMapper.class[m
+[1mdeleted file mode 100644[m
+[1mindex 2da65a6..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mapper/TestMapper.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mini/controller/MiniController.class b/domain/bin/main/com/uplus/domain/mini/controller/MiniController.class[m
+[1mdeleted file mode 100644[m
+[1mindex cf1d67f..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mini/controller/MiniController.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mini/dto/MiniDTO.class b/domain/bin/main/com/uplus/domain/mini/dto/MiniDTO.class[m
+[1mdeleted file mode 100644[m
+[1mindex 44594e9..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mini/dto/MiniDTO.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mini/mapper/MiniMapper.class b/domain/bin/main/com/uplus/domain/mini/mapper/MiniMapper.class[m
+[1mdeleted file mode 100644[m
+[1mindex 5a0cfb1..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mini/mapper/MiniMapper.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mini/service/MiniService.class b/domain/bin/main/com/uplus/domain/mini/service/MiniService.class[m
+[1mdeleted file mode 100644[m
+[1mindex 6883670..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mini/service/MiniService.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/mini/service/MiniServiceImpl.class b/domain/bin/main/com/uplus/domain/mini/service/MiniServiceImpl.class[m
+[1mdeleted file mode 100644[m
+[1mindex 7c1ba7f..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/mini/service/MiniServiceImpl.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/service/TestService.class b/domain/bin/main/com/uplus/domain/service/TestService.class[m
+[1mdeleted file mode 100644[m
+[1mindex eb22429..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/service/TestService.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/com/uplus/domain/service/TestServiceImpl.class b/domain/bin/main/com/uplus/domain/service/TestServiceImpl.class[m
+[1mdeleted file mode 100644[m
+[1mindex 5dcabce..0000000[m
+Binary files a/domain/bin/main/com/uplus/domain/service/TestServiceImpl.class and /dev/null differ
+[1mdiff --git a/domain/bin/main/mapper.xml b/domain/bin/main/mapper.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 24ea793..0000000[m
+[1m--- a/domain/bin/main/mapper.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,9 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">[m
+[31m-[m
+[31m-<mapper namespace="com.uplus.domain.mapper.TestMapper">[m
+[31m-    <select id="selectList" resultType="TestDTO">[m
+[31m-        SELECT 	NAME,DEVNAME,HDPNO,	BIRTHDATE,CONTENT[m
+[31m-        FROM MASTER[m
+[31m-    </select>[m
+[31m-</mapper>[m
+\ No newline at end of file[m
+[1mdiff --git a/domain/bin/main/static/images/content-bg-bottom.png b/domain/bin/main/static/images/content-bg-bottom.png[m
+[1mdeleted file mode 100644[m
+[1mindex c028377..0000000[m
+Binary files a/domain/bin/main/static/images/content-bg-bottom.png and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/menu-wrapper-bg.png b/domain/bin/main/static/images/menu-wrapper-bg.png[m
+[1mdeleted file mode 100644[m
+[1mindex 34693cd..0000000[m
+Binary files a/domain/bin/main/static/images/menu-wrapper-bg.png and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/pics01.jpg b/domain/bin/main/static/images/pics01.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex d7dd1ee..0000000[m
+Binary files a/domain/bin/main/static/images/pics01.jpg and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/pics02.jpg b/domain/bin/main/static/images/pics02.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex e34b922..0000000[m
+Binary files a/domain/bin/main/static/images/pics02.jpg and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/pics03.jpg b/domain/bin/main/static/images/pics03.jpg[m
+[1mdeleted file mode 100644[m
+[1mindex ea3fd0d..0000000[m
+Binary files a/domain/bin/main/static/images/pics03.jpg and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/sidebar-bg-bottom.png b/domain/bin/main/static/images/sidebar-bg-bottom.png[m
+[1mdeleted file mode 100644[m
+[1mindex fa38d26..0000000[m
+Binary files a/domain/bin/main/static/images/sidebar-bg-bottom.png and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/sidebar-shadow-bg.png b/domain/bin/main/static/images/sidebar-shadow-bg.png[m
+[1mdeleted file mode 100644[m
+[1mindex 58a59ea..0000000[m
+Binary files a/domain/bin/main/static/images/sidebar-shadow-bg.png and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/images/wrapper-background.png b/domain/bin/main/static/images/wrapper-background.png[m
+[1mdeleted file mode 100644[m
+[1mindex 55f01b7..0000000[m
+Binary files a/domain/bin/main/static/images/wrapper-background.png and /dev/null differ
+[1mdiff --git a/domain/bin/main/static/index.html b/domain/bin/main/static/index.html[m
+[1mdeleted file mode 100644[m
+[1mindex c3787cc..0000000[m
+[1m--- a/domain/bin/main/static/index.html[m
+[1m+++ /dev/null[m
+[36m@@ -1,119 +0,0 @@[m
+[31m-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">[m
+[31m-<!--[m
+[31m-Design by TEMPLATED[m
+[31m-http://templated.co[m
+[31m-Released for free under the Creative Commons Attribution License[m
+[31m-[m
+[31m-Name       : Boldness   [m
+[31m-Description: A two-column, fixed-width design with dark color scheme.[m
+[31m-Version    : 1.0[m
+[31m-Released   : 20120422[m
+[31m--->[m
+[31m-[m
+[31m-<html xmlns="http://www.w3.org/1999/xhtml">[m
+[31m-<head>[m
+[31m-<meta name="keywords" content="" />[m
+[31m-<meta name="description" content="" />[m
+[31m-<meta http-equiv="content-type" content="text/html; charset=utf-8" />[m
+[31m-<title>Boldness by TEMPLATED</title>[m
+[31m-<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />[m
+[31m-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />[m
+[31m-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>[m
+[31m-<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-<div id="wrapper">[m
+[31m-	<div id="header-wrapper">[m
+[31m-		<div id="header">[m
+[31m-			<div id="logo">[m
+[31m-				<h1><a href="#"><b>Y</b>ou <b>C</b>ode?</a></h1>[m
+[31m-				<p>Design by Ikhoon</a></p>[m
+[31m-			</div>[m
+[31m-		</div>[m
+[31m-	</div>[m
+[31m-	<!-- end #header -->[m
+[31m-	<div id="menu">[m
+[31m-		<ul>[m
+[31m-			<li class="current_page_item"><a href="#">You Code란?</a></li>[m
+[31m-			<li><a href="#">코드모음</a></li>[m
+[31m-			<li><a href="#">커뮤니티</a></li>[m
+[31m-			<li><a href="#">개선</a></li>[m
+[31m-		</ul>[m
+[31m-	</div>[m
+[31m-	<!-- end #menu -->[m
+[31m-	<div id="page">[m
+[31m-		<div id="content">[m
+[31m-			<div id="slider">[m
+[31m-				<div class="viewer">[m
+[31m-					<div class="reel">[m
+[31m-						<div class="slide"> <h1><b>You Code?</b></h1> </div>[m
+[31m-						<div class="slide"> <h1><b>Yes!!!!!!</b></h1> </div>[m
+[31m-					</div>[m
+[31m-				</div>[m
+[31m-			</div>[m
+[31m-			<script type="text/javascript">[m
+[31m-				$('#slider').slidertron({[m
+[31m-					viewerSelector: '.viewer',[m
+[31m-					reelSelector: '.viewer .reel',[m
+[31m-					slidesSelector: '.viewer .reel .slide',[m
+[31m-					advanceDelay: 3000,[m
+[31m-					speed: 'slow'[m
+[31m-				});[m
+[31m-			</script>[m
+[31m-[m
+[31m-			<div class="post">[m
+[31m-				<h2 class="title"><a href="#">You Code?</a></h2>[m
+[31m-				<p class="meta">Posted by <a href="#">Someone</a> on April 22, 2012[m
+[31m-					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>[m
+[31m-				<div class="entry">[m
+[31m-					<p>You Code는 code를 정리해놓고 이를 사용해볼 수 있는 사이트입니다.</p>[m
+[31m-					<p>자유롭게 의견을 공유해주세요..^^</p>[m
+[31m-				</div>[m
+[31m-			</div>[m
+[31m-			<div class="post">[m
+[31m-				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>[m
+[31m-				<p class="meta">Posted by <a href="#">Someone</a> on April 19, 2012[m
+[31m-					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>[m
+[31m-				<div class="entry">[m
+[31m-					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus </p>[m
+[31m-				</div>[m
+[31m-			</div>[m
+[31m-			<div style="clear: both;">&nbsp;</div>[m
+[31m-		</div>[m
+[31m-		<!-- end #content -->[m
+[31m-		<div id="sidebar-bg">[m
+[31m-			<div id="sidebar">[m
+[31m-				<ul>[m
+[31m-					<li>[m
+[31m-						<h2>You Code</h2>[m
+[31m-						<p>현우 창민 익훈 성보</p>[m
+[31m-					</li>[m
+[31m-					<li>[m
+[31m-						<h2>대분류</h2>[m
+[31m-						<ul>[m
+[31m-							<li><a href="#">코드분류1</a></li>[m
+[31m-							<li><a href="#">코드분류2</a></li>[m
+[31m-							<li><a href="#">코드분류3</a></li>[m
+[31m-							<li><a href="#">코드분류4</a></li>[m
+[31m-						</ul>[m
+[31m-					</li>[m
+[31m-					<li>[m
+[31m-						<h2>End</h2>[m
+[31m-						<ul>[m
+[31m-							<p>불펌금지</p>[m
+[31m-						</ul>[m
+[31m-					</li>[m
+[31m-				</ul>[m
+[31m-			</div>[m
+[31m-		</div>[m
+[31m-		<!-- end #sidebar -->[m
+[31m-		<div style="clear: both;">&nbsp;</div>[m
+[31m-	</div>[m
+[31m-	<!-- end #page -->[m
+[31m-</div>[m
+[31m-<div id="footer">[m
+[31m-	<p>2012. Untitled. All rights reserved. Photos by <a href="http://fotogrph.com/">Fotogrph</a>. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>[m
+[31m-</div>[m
+[31m-<!-- end #footer -->[m
+[31m-</body>[m
+[31m-</html>[m
+[1mdiff --git a/domain/bin/main/static/jquery.slidertron-1.0.js b/domain/bin/main/static/jquery.slidertron-1.0.js[m
+[1mdeleted file mode 100644[m
+[1mindex 9d7c49a..0000000[m
+[1m--- a/domain/bin/main/static/jquery.slidertron-1.0.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,676 +0,0 @@[m
+[31m-/*[m
+[31m-	Slidertron 1.0: A flexible slider plugin for jQuery[m
+[31m-	By nodethirtythree design | http://nodethirtythree.com/ | @nodethirtythree[m
+[31m-	Dual licensed under the MIT or GPL license.[m
+[31m-	//////////////////////////////////////////////////////////////////////////[m
+[31m-	MIT license:[m
+[31m-[m
+[31m-	Copyright (c) 2012 nodethirtythree design, http://nodethirtythree.com/[m
+[31m-[m
+[31m-	Permission is hereby granted, free of charge, to any person[m
+[31m-	obtaining a copy of this software and associated documentation[m
+[31m-	files (the "Software"), to deal in the Software without[m
+[31m-	restriction, including without limitation the rights to use,[m
+[31m-	copy, modify, merge, publish, distribute, sublicense, and/or sell[m
+[31m-	copies of the Software, and to permit persons to whom the[m
+[31m-	Software is furnished to do so, subject to the following[m
+[31m-	conditions:[m
+[31m-[m
+[31m-	The above copyright notice and this permission notice shall be[m
+[31m-	included in all copies or substantial portions of the Software.[m
+[31m-[m
+[31m-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,[m
+[31m-	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES[m
+[31m-	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND[m
+[31m-	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT[m
+[31m-	HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,[m
+[31m-	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING[m
+[31m-	FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR[m
+[31m-	OTHER DEALINGS IN THE SOFTWARE.[m
+[31m-	//////////////////////////////////////////////////////////////////////////[m
+[31m-	GPL license:[m
+[31m-[m
+[31m-	Copyright (c) 2012 nodethirtythree design, http://nodethirtythree.com/[m
+[31m-	[m
+[31m-	This program is free software: you can redistribute it and/or modify it[m
+[31m-	under the terms of the GNU General Public License as published by the Free [m
+[31m-	Software Foundation, either version 3 of the License, or (at your option) [m
+[31m-	any later version.[m
+[31m-[m
+[31m-	This program is distributed in the hope that it will be useful, but [m
+[31m-	WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY [m
+[31m-	or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License [m
+[31m-	for more details.[m
+[31m-[m
+[31m-	You should have received a copy of the GNU General Public License along [m
+[31m-	with this program. If not, see <http://www.gnu.org/licenses/>. [m
+[31m-	//////////////////////////////////////////////////////////////////////////[m
+[31m-*/[m
+[31m-[m
+[31m-(function(jQuery) {[m
+[31m-[m
+[31m-	jQuery.fn.slidertron = function(options) {[m
+[31m-		[m
+[31m-		var settings = jQuery.extend({[m
+[31m-			selectorParent:		jQuery(this)[m
+[31m-		}, options);[m
+[31m-		[m
+[31m-		return jQuery.slidertron(settings);[m
+[31m-	}[m
+[31m-[m
+[31m-	jQuery.slidertron = function(options) {[m
+[31m-[m
+[31m-		// Settings[m
+[31m-		[m
+[31m-			var settings = jQuery.extend({[m
+[31m-			[m
+[31m-				selectorParent:						null,		// If a jQuery object, all selectors will be restricted to its scope. Otherwise, all selectors will be global.[m
+[31m-[m
+[31m-				// Selectors[m
+[31m-[m
+[31m-					viewerSelector:					null,		// Viewer selector[m
+[31m-					reelSelector:					null,		// Reel selector[m
+[31m-					slidesSelector:					null,		// Slides selector[m
+[31m-					indicatorSelector:				null,		// Indicator selector[m
+[31m-					navNextSelector:				null,		// 'Next' selector[m
+[31m-					navPreviousSelector:			null,		// 'Previous' selector[m
+[31m-					navFirstSelector:				null,		// 'First' selector[m
+[31m-					navLastSelector:				null,		// 'Last' selector[m
+[31m-					navStopAdvanceSelector:			null,		// 'Stop Advance' selector[m
+[31m-					navPlayAdvanceSelector:			null,		// 'Play Advance' selector[m
+[31m-					captionLineSelector:			null,		// 'Caption Line' selector[m
+[31m-					slideLinkSelector:				null,		// 'Slide Link' selector[m
+[31m-					slideCaptionSelector:			null,		// 'Slide Caption' selector[m
+[31m-[m
+[31m-				// General settings[m
+[31m-[m
+[31m-					speed:							'fast',		// Transition speed (0 for instant, 'slow', 'fast', or a custom duration in ms)[m
+[31m-					navWrap:						true,		// Wrap navigation when we navigate past the first or last slide[m
+[31m-					seamlessWrap:					true,		// Seamlessly wrap slides[m
+[31m-					advanceDelay:					0,			// Time to wait (in ms) before automatically advancing to the next slide (0 disables advancement entirely)[m
+[31m-					advanceNavActiveClass:			'active',	// Class applied to active stop/play navigation control[m
+[31m-					viewerOffset:					false,		// Viewer offset amount	(+ = shift right, - = shift left, 0 = do nothing, false = disable)	[m
+[31m-					activeSlideClass:				'active',	// Class applied to the active slide[m
+[31m-					clickToNav:						false,		// Navigate to a slide when clicked (used in conjunction with viewerOffset)[m
+[31m-					captionLines:					0			// Number of caption lines. If this is > 1, the plugin will look for additional caption elements using the captionSelector setting + a number (eg. '.caption2', '.caption3', etc.)[m
+[31m-[m
+[31m-			}, options);[m
+[31m-[m
+[31m-		// Variables[m
+[31m-[m
+[31m-			// Operational stuff[m
+[31m-		[m
+[31m-				var isConfigured = true,[m
+[31m-					isLocked = false,[m
+[31m-					isAdvancing = false,[m
+[31m-					isSeamless = false,[m
+[31m-					list = new Array(),[m
+[31m-					currentIndex = false,[m
+[31m-					timeoutID,[m
+[31m-					pFirst,[m
+[31m-					pLast;[m
+[31m-[m
+[31m-			// jQuery objects[m
+[31m-[m
+[31m-				var __slides,[m
+[31m-					__viewer,[m
+[31m-					__indicator,[m
+[31m-					__navFirst,[m
+[31m-					__navLast,[m
+[31m-					__navNext,[m
+[31m-					__navPrevious,[m
+[31m-					__navStopAdvance,[m
+[31m-					__navPlayAdvance,[m
+[31m-					__captionLines;[m
+[31m-[m
+[31m-		// Functions[m
+[31m-			[m
+[31m-			function getElement(selector, required)[m
+[31m-			{[m
+[31m-				var x;[m
+[31m-				[m
+[31m-				try[m
+[31m-				{[m
+[31m-					if (selector == null)[m
+[31m-						throw 'is undefined';[m
+[31m-			[m
+[31m-					if (settings.selectorParent)[m
+[31m-						x = settings.selectorParent.find(selector);[m
+[31m-					else[m
+[31m-						x = jQuery(selector);[m
+[31m-					[m
+[31m-					if (x.length == 0)[m
+[31m-						throw 'does not exist';[m
+[31m-					[m
+[31m-					return x;[m
+[31m-				}[m
+[31m-				catch (error)[m
+[31m-				{[m
+[31m-					if (required == true)[m
+[31m-					{[m
+[31m-						alert('Error: Required selector "' + selector + '" ' + error + '.');[m
+[31m-						isConfigured = false;[m
+[31m-					}[m
+[31m-				}[m
+[31m-				[m
+[31m-				return null;[m
+[31m-			}[m
+[31m-[m
+[31m-			function advance()[m
+[31m-			{[m
+[31m-				if (settings.advanceDelay == 0)[m
+[31m-					return;[m
+[31m-			[m
+[31m-				if (!isLocked)[m
+[31m-					nextSlide();[m
+[31m-[m
+[31m-				timeoutID = window.setTimeout(advance, settings.advanceDelay);[m
+[31m-			}[m
+[31m-[m
+[31m-			function initializeAdvance()[m
+[31m-			{[m
+[31m-				if (settings.advanceDelay == 0)[m
+[31m-					return;[m
+[31m-[m
+[31m-				if (__navStopAdvance)[m
+[31m-					__navStopAdvance.addClass(settings.advanceNavActiveClass);[m
+[31m-				[m
+[31m-				if (__navPlayAdvance)[m
+[31m-					__navPlayAdvance.removeClass(settings.advanceNavActiveClass);[m
+[31m-[m
+[31m-				isAdvancing = true;[m
+[31m-				timeoutID = window.setTimeout(advance, settings.advanceDelay);[m
+[31m-			}[m
+[31m-			[m
+[31m-			function interruptAdvance()[m
+[31m-			{[m
+[31m-				stopAdvance();[m
+[31m-			}[m
+[31m-			[m
+[31m-			function stopAdvance()[m
+[31m-			{[m
+[31m-				if (settings.advanceDelay == 0)[m
+[31m-					return;[m
+[31m-[m
+[31m-				if (!isAdvancing)[m
+[31m-					return;[m
+[31m-[m
+[31m-				if (__navStopAdvance && __navPlayAdvance)[m
+[31m-				{[m
+[31m-					__navStopAdvance.removeClass(settings.advanceNavActiveClass);[m
+[31m-					__navPlayAdvance.addClass(settings.advanceNavActiveClass);[m
+[31m-				}[m
+[31m-			[m
+[31m-				isAdvancing = false;[m
+[31m-				window.clearTimeout(timeoutID);[m
+[31m-			}[m
+[31m-			[m
+[31m-			function playAdvance(skip)[m
+[31m-			{[m
+[31m-				if (settings.advanceDelay == 0)[m
+[31m-					return;[m
+[31m-[m
+[31m-				if (isAdvancing)[m
+[31m-					return;[m
+[31m-					[m
+[31m-				isAdvancing = true;[m
+[31m-[m
+[31m-				if (__navStopAdvance && __navPlayAdvance)[m
+[31m-				{[m
+[31m-					__navPlayAdvance.removeClass(settings.advanceNavActiveClass);[m
+[31m-					__navStopAdvance.addClass(settings.advanceNavActiveClass);[m
+[31m-				}[m
+[31m-[m
+[31m-				if (skip)[m
+[31m-					timeoutID = window.setTimeout(advance, settings.advanceDelay);[m
+[31m-				else[m
+[31m-					advance();[m
+[31m-			}[m
+[31m-			[m
+[31m-			function firstSlide()[m
+[31m-			{[m
+[31m-				switchSlide(pFirst);[m
+[31m-			}[m
+[31m-			[m
+[31m-			function lastSlide()[m
+[31m-			{[m
+[31m-				switchSlide(pLast);[m
+[31m-			}[m
+[31m-[m
+[31m-			function nextSlide()[m
+[31m-			{[m
+[31m-				if ((isSeamless && currentIndex <= pLast)[m
+[31m-				||	(!isSeamless && currentIndex < pLast))[m
+[31m-					switchSlide(currentIndex + 1);[m
+[31m-				else if (settings.navWrap || isAdvancing)[m
+[31m-					switchSlide(pFirst);[m
+[31m-			}[m
+[31m-			[m
+[31m-			function previousSlide()[m
+[31m-			{[m
+[31m-				if ((isSeamless && currentIndex >= pFirst)[m
+[31m-				||	(!isSeamless && currentIndex > pFirst))[m
+[31m-					switchSlide(currentIndex - 1);[m
+[31m-				else if (settings.navWrap)[m
+[31m-					switchSlide(pLast);[m
+[31m-			}[m
+[31m-[m
+[31m-			function switchSlide(index)[m
+[31m-			{[m
+[31m-				var x;[m
+[31m-[m
+[31m-				if (isLocked)[m
+[31m-					return false;[m
+[31m-					[m
+[31m-				isLocked = true;[m
+[31m-[m
+[31m-				if (currentIndex === false)[m
+[31m-				{[m
+[31m-					currentIndex = index;[m
+[31m-					__reel.css('left', -1 * list[currentIndex].x);[m
+[31m-					isLocked = false;[m
+[31m-[m
+[31m-					// Indicator[m
+[31m-						if (__indicator)[m
+[31m-						{[m
+[31m-							__indicator.removeClass('active');[m
+[31m-							jQuery(__indicator.get(currentIndex - pFirst)).addClass('active');[m
+[31m-						}[m
+[31m-[m
+[31m-					// Active slide[m
+[31m-						if (settings.activeSlideClass)[m
+[31m-							list[currentIndex].object[m
+[31m-								.addClass(settings.activeSlideClass)[m
+[31m-[m
+[31m-					// Link[m
+[31m-						if (settings.clickToNav && !list[currentIndex].link)[m
+[31m-							list[currentIndex].object[m
+[31m-								.css('cursor', 'default');[m
+[31m-					[m
+[31m-					// Captions[m
+[31m-						if (__captionLines)[m
+[31m-						{[m
+[31m-							if (list[currentIndex].captions)[m
+[31m-								for (x in __captionLines)[m
+[31m-									__captionLines[x].html(list[currentIndex].captions[x]);[m
+[31m-							else[m
+[31m-								for (x in __captionLines)[m
+[31m-									__captionLines[x].html('');[m
+[31m-						}[m
+[31m-				}[m
+[31m-				else[m
+[31m-				{[m
+[31m-					var diff, currentX, newX, realIndex;[m
+[31m-					[m
+[31m-					if (settings.activeSlideClass)[m
+[31m-						list[currentIndex].object[m
+[31m-							.removeClass(settings.activeSlideClass);[m
+[31m-[m
+[31m-					if (settings.clickToNav)[m
+[31m-						list[currentIndex].object[m
+[31m-							.css('cursor', 'pointer');[m
+[31m-					[m
+[31m-					currentX = list[currentIndex].x;[m
+[31m-					newX = list[index].x;[m
+[31m-					diff = currentX - newX;[m
+[31m-[m
+[31m-					// Get real index[m
+[31m-						if (list[index].realIndex !== false)[m
+[31m-							realIndex = list[index].realIndex;[m
+[31m-						else[m
+[31m-							realIndex = index;[m
+[31m-[m
+[31m-					// Indicator[m
+[31m-						if (__indicator)[m
+[31m-						{[m
+[31m-							__indicator.removeClass('active');[m
+[31m-							jQuery(__indicator.get(realIndex - pFirst)).addClass('active');[m
+[31m-						}[m
+[31m-[m
+[31m-					// Captions[m
+[31m-						if (__captionLines)[m
+[31m-						{[m
+[31m-							if (list[realIndex].captions)[m
+[31m-								for (x in __captionLines)[m
+[31m-									__captionLines[x].html(list[realIndex].captions[x]);[m
+[31m-							else[m
+[31m-								for (x in __captionLines)[m
+[31m-									__captionLines[x].html('');[m
+[31m-						}[m
+[31m-[m
+[31m-					__reel.animate({ left: '+=' + diff }, settings.speed, 'swing', function() {[m
+[31m-						currentIndex = index;[m
+[31m-[m
+[31m-						// Get real index and adjust reel position[m
+[31m-							if (list[currentIndex].realIndex !== false)[m
+[31m-							{[m
+[31m-								currentIndex = list[currentIndex].realIndex;[m
+[31m-								__reel.css('left', -1 * list[currentIndex].x);[m
+[31m-							}[m
+[31m-[m
+[31m-						// Active slide[m
+[31m-							if (settings.activeSlideClass)[m
+[31m-								list[currentIndex].object[m
+[31m-									.addClass(settings.activeSlideClass);[m
+[31m-[m
+[31m-						// Link[m
+[31m-							if (settings.clickToNav && !list[currentIndex].link)[m
+[31m-								list[currentIndex].object[m
+[31m-									.css('cursor', 'default');[m
+[31m-[m
+[31m-						isLocked = false;[m
+[31m-					});[m
+[31m-				}[m
+[31m-			}[m
+[31m-[m
+[31m-			function initialize()[m
+[31m-			{[m
+[31m-				var tmp, a, s;[m
+[31m-[m
+[31m-				// Slides, viewer, reel, indicator[m
+[31m-					__viewer = getElement(settings.viewerSelector, true);[m
+[31m-					__reel = getElement(settings.reelSelector, true);[m
+[31m-					__slides = getElement(settings.slidesSelector, true);[m
+[31m-					__indicator = getElement(settings.indicatorSelector, false);[m
+[31m-[m
+[31m-				// Caption lines[m
+[31m-					a = new Array();[m
+[31m-				[m
+[31m-					for (i = 1; i <= settings.captionLines; i++)[m
+[31m-					{[m
+[31m-						s = settings.captionLineSelector;[m
+[31m-[m
+[31m-						if (settings.captionLines > 1)[m
+[31m-							s = s + i;[m
+[31m-[m
+[31m-						tmp = getElement(s, false);[m
+[31m-						[m
+[31m-						if (tmp == null)[m
+[31m-						{[m
+[31m-							a = null;[m
+[31m-							break;[m
+[31m-						}[m
+[31m-						[m
+[31m-						a.push(tmp);[m
+[31m-					}[m
+[31m-					[m
+[31m-					__captionLines = a;[m
+[31m-[m
+[31m-				// Navigation[m
+[31m-					__navFirst = getElement(settings.navFirstSelector);[m
+[31m-					__navLast = getElement(settings.navLastSelector);[m
+[31m-					__navNext = getElement(settings.navNextSelector);[m
+[31m-					__navPrevious = getElement(settings.navPreviousSelector);[m
+[31m-					__navStopAdvance = getElement(settings.navStopAdvanceSelector);[m
+[31m-					__navPlayAdvance = getElement(settings.navPlayAdvanceSelector);[m
+[31m-[m
+[31m-				// Check configuration status[m
+[31m-[m
+[31m-					// ClickToNav only works when viewerOffset != false[m
+[31m-						if (settings.viewerOffset == false[m
+[31m-						&&	settings.clickToNav)[m
+[31m-						{[m
+[31m-							alert('Error: clickToNav only works when viewerOffset is in use.');[m
+[31m-							return false;[m
+[31m-						}[m
+[31m-[m
+[31m-					// When using the indicator, it must have as many items as there are slides[m
+[31m-						if (__indicator)[m
+[31m-						{[m
+[31m-							if (__indicator.length != __slides.length)[m
+[31m-							{[m
+[31m-								alert('Error: Indicator needs to have as many items as there are slides.');[m
+[31m-								return false;[m
+[31m-							}[m
+[31m-						}[m
+[31m-				[m
+[31m-					// Final check[m
+[31m-						if (isConfigured == false)[m
+[31m-						{[m
+[31m-							alert('Error: One or more configuration errors detected. Aborting.');[m
+[31m-							return false;[m
+[31m-						}[m
+[31m-[m
+[31m-					if (settings.viewerOffset == false)[m
+[31m-						settings.viewerOffset = 0;					[m
+[31m-[m
+[31m-				// Set up[m
+[31m-[m
+[31m-					// Viewer[m
+[31m-						__viewer.css('position', 'relative');[m
+[31m-						__viewer.css('overflow', 'hidden');[m
+[31m-[m
+[31m-					// Reel[m
+[31m-						__reel.css('position', 'absolute');[m
+[31m-						__reel.css('left', 0);[m
+[31m-						__reel.css('top', 0);[m
+[31m-						__reel.hide();[m
+[31m-[m
+[31m-					// Slides[m
+[31m-						var cx = 0, length = __slides.length;[m
+[31m-				[m
+[31m-						if (settings.seamlessWrap)[m
+[31m-						{[m
+[31m-							isSeamless = true;[m
+[31m-[m
+[31m-							var L1 = __slides.eq(0);[m
+[31m-							var L2 = __slides.eq(Math.min(length - 1, 1));[m
+[31m-							var R2 = __slides.eq(Math.max(length - 2, 0));[m
+[31m-							var R1 = __slides.eq(Math.max(length - 1, 0));[m
+[31m-							[m
+[31m-							var realFirst = L1;[m
+[31m-							var realLast = R1;[m
+[31m-[m
+[31m-							R2.clone().insertBefore(realFirst);[m
+[31m-							R1.clone().insertBefore(realFirst);[m
+[31m-							L2.clone().insertAfter(realLast);[m
+[31m-							L1.clone().insertAfter(realLast);[m
+[31m-[m
+[31m-							__slides = getElement(settings.slidesSelector, true);[m
+[31m-							[m
+[31m-							pFirst = 2;[m
+[31m-							pLast = __slides.length - 3;[m
+[31m-						}[m
+[31m-						else[m
+[31m-						{[m
+[31m-							pFirst = 0;[m
+[31m-							pLast = length - 1;[m
+[31m-						}[m
+[31m-						[m
+[31m-						__slides.each(function(index) {[m
+[31m-[m
+[31m-							var y = jQuery(this), link = false, captions = new Array();[m
+[31m-							var l, i, tmp, s;[m
+[31m-[m
+[31m-							// click to nav?[m
+[31m-								if (settings.clickToNav)[m
+[31m-								{[m
+[31m-									y[m
+[31m-										.css('cursor', 'pointer')[m
+[31m-										.click(function(e) {[m
+[31m-											if (currentIndex != index)[m
+[31m-											{[m
+[31m-												e.stopPropagation();[m
+[31m-[m
+[31m-												if (isAdvancing)[m
+[31m-													interruptAdvance();[m
+[31m-[m
+[31m-												switchSlide(index);[m
+[31m-											}[m
+[31m-										});[m
+[31m-								}[m
+[31m-[m
+[31m-							// Link?[m
+[31m-								var l = y.find(settings.slideLinkSelector);[m
+[31m-								[m
+[31m-								if (l.length > 0)[m
+[31m-								{[m
+[31m-									link = l.attr('href');[m
+[31m-									l.remove();[m
+[31m-									y[m
+[31m-										.css('cursor', 'pointer')[m
+[31m-										.click(function(e) {[m
+[31m-											if (currentIndex == index)[m
+[31m-												window.location = link;[m
+[31m-										});[m
+[31m-								}[m
+[31m-[m
+[31m-							// Caption(s)?[m
+[31m-								[m
+[31m-								for (i = 1; i <= settings.captionLines; i++)[m
+[31m-								{[m
+[31m-									s = settings.slideCaptionSelector;[m
+[31m-[m
+[31m-									if (settings.captionLines > 1)[m
+[31m-										s = s + i;[m
+[31m-[m
+[31m-									tmp = y.find(s);[m
+[31m-[m
+[31m-									if (tmp.length > 0)[m
+[31m-									{[m
+[31m-										captions.push(tmp.html());[m
+[31m-										tmp.remove();[m
+[31m-									}[m
+[31m-								}[m
+[31m-							[m
+[31m-								if (captions.length != settings.captionLines)[m
+[31m-									captions = false;[m
+[31m-							[m
+[31m-							list[index] = {[m
+[31m-								object:		y,[m
+[31m-								x:			cx - settings.viewerOffset,[m
+[31m-								realIndex:	false,[m
+[31m-								link:		link,[m
+[31m-								captions:	captions[m
+[31m-							};[m
+[31m-							[m
+[31m-							y.css('position', 'absolute');[m
+[31m-							y.css('left', cx);[m
+[31m-							y.css('top', 0);[m
+[31m-							[m
+[31m-							cx += y.width();[m
+[31m-						});[m
+[31m-[m
+[31m-						if (isSeamless)[m
+[31m-						{[m
+[31m-							list[pFirst - 1].realIndex = pLast;[m
+[31m-							list[pLast + 1].realIndex = pFirst;[m
+[31m-						}[m
+[31m-[m
+[31m-					// Indicator[m
+[31m-						if (__indicator)[m
+[31m-						{[m
+[31m-							__indicator.each(function() {[m
+[31m-								var t = jQuery(this);[m
+[31m-								[m
+[31m-								t[m
+[31m-									.css('cursor', 'pointer')[m
+[31m-									.click(function(event) {[m
+[31m-										event.preventDefault();[m
+[31m-[m
+[31m-										if (isLocked)[m
+[31m-											return false;[m
+[31m-[m
+[31m-										if (isAdvancing)[m
+[31m-											interruptAdvance();[m
+[31m-[m
+[31m-										switchSlide(t.index() + pFirst);[m
+[31m-									});[m
+[31m-							});[m
+[31m-						}[m
+[31m-					[m
+[31m-					// Navigation[m
+[31m-						if (__navFirst)[m
+[31m-							__navFirst.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								if (isAdvancing)[m
+[31m-									interruptAdvance();[m
+[31m-								[m
+[31m-								firstSlide();[m
+[31m-							});[m
+[31m-[m
+[31m-						if (__navLast)[m
+[31m-							__navLast.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								if (isAdvancing)[m
+[31m-									interruptAdvance();[m
+[31m-[m
+[31m-								lastSlide();[m
+[31m-							});[m
+[31m-[m
+[31m-						if (__navNext)[m
+[31m-							__navNext.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								if (isAdvancing)[m
+[31m-									interruptAdvance();[m
+[31m-[m
+[31m-								nextSlide();[m
+[31m-							});[m
+[31m-[m
+[31m-						if (__navPrevious)[m
+[31m-							__navPrevious.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-							[m
+[31m-								if (isAdvancing)[m
+[31m-									interruptAdvance();[m
+[31m-[m
+[31m-								previousSlide();[m
+[31m-							});[m
+[31m-[m
+[31m-						if (__navStopAdvance)[m
+[31m-							__navStopAdvance.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								if (!isAdvancing)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								stopAdvance();[m
+[31m-							});[m
+[31m-[m
+[31m-						if (__navPlayAdvance)[m
+[31m-							__navPlayAdvance.click(function(event) {[m
+[31m-								event.preventDefault();[m
+[31m-[m
+[31m-								if (isLocked)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								if (isAdvancing)[m
+[31m-									return false;[m
+[31m-[m
+[31m-								playAdvance();[m
+[31m-							});[m
+[31m-[m
+[31m-					__reel.fadeIn('slow');[m
+[31m-					[m
+[31m-				return true;[m
+[31m-			}[m
+[31m-[m
+[31m-			// Ready[m
+[31m-				jQuery().ready(function() {[m
+[31m-					if (initialize())[m
+[31m-					{[m
+[31m-						initializeAdvance();[m
+[31m-						firstSlide();[m
+[31m-					}[m
+[31m-				});[m
+[31m-	};[m
+[31m-[m
+[31m-})(jQuery);[m
+\ No newline at end of file[m
+[1mdiff --git a/domain/bin/main/static/style.css b/domain/bin/main/static/style.css[m
+[1mdeleted file mode 100644[m
+[1mindex eedba56..0000000[m
+[1m--- a/domain/bin/main/static/style.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,420 +0,0 @@[m
+[31m-[m
+[31m-/*[m
+[31m-Design by TEMPLATED[m
+[31m-http://templated.co[m
+[31m-Released for free under the Creative Commons Attribution License[m
+[31m-*/[m
+[31m-[m
+[31m-body {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-	background: #181818 url(images/wrapper-background.png) repeat;[m
+[31m-	font-family: Arial, Helvetica, sans-serif;[m
+[31m-	font-size: 14px;[m
+[31m-	color: #181B20;[m
+[31m-}[m
+[31m-[m
+[31m-h1, h2, h3 {[m
+[31m-	margin: 0px;[m
+[31m-	padding: 0px;[m
+[31m-	text-transform: lowercase;[m
+[31m-	font-family: 'Abel', sans-serif;[m
+[31m-	font-weight: 400;[m
+[31m-}[m
+[31m-[m
+[31m-h1 {[m
+[31m-	font-size: 2em;[m
+[31m-}[m
+[31m-[m
+[31m-h2 {[m
+[31m-	font-size: 2.4em;[m
+[31m-}[m
+[31m-[m
+[31m-h3 {[m
+[31m-	font-size: 1.6em;[m
+[31m-}[m
+[31m-[m
+[31m-p, ul, ol {[m
+[31m-	margin-top: 0;[m
+[31m-	line-height: 180%;[m
+[31m-}[m
+[31m-[m
+[31m-ul, ol {[m
+[31m-}[m
+[31m-[m
+[31m-a {[m
+[31m-	text-decoration: none;[m
+[31m-	color: #398A12;[m
+[31m-}[m
+[31m-[m
+[31m-a:hover {[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-[m
+[31m-img.border {[m
+[31m-	border: 6px solid #EEE7DF;[m
+[31m-}[m
+[31m-[m
+[31m-img.alignleft {[m
+[31m-	float: left;[m
+[31m-	margin-right: 25px;[m
+[31m-}[m
+[31m-[m
+[31m-img.alignright {[m
+[31m-	float: right;[m
+[31m-}[m
+[31m-[m
+[31m-img.aligncenter {[m
+[31m-	margin: 0px auto;[m
+[31m-}[m
+[31m-[m
+[31m-#wrapper {[m
+[31m-	margin: 0 auto;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-/* Header */[m
+[31m-[m
+[31m-#header-wrapper {[m
+[31m-	height: 240px;[m
+[31m-}[m
+[31m-[m
+[31m-#header {[m
+[31m-	width: 960px;[m
+[31m-	height: 240px;[m
+[31m-	margin: 0 auto;[m
+[31m-}[m
+[31m-[m
+[31m-/* Logo */[m
+[31m-[m
+[31m-#logo {[m
+[31m-	width: 980px;[m
+[31m-	height: 100px;[m
+[31m-	margin: 0px auto;[m
+[31m-	padding: 80px 0px 0px 0px;[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-#logo h1, #logo p {[m
+[31m-	display: block;[m
+[31m-	margin: 0px;[m
+[31m-	padding: 0px;[m
+[31m-	text-transform: lowercase;[m
+[31m-}[m
+[31m-[m
+[31m-#logo h1 {[m
+[31m-	letter-spacing: -5px;[m
+[31m-	text-align: center;[m
+[31m-	text-transform: lowercase;[m
+[31m-	font-size: 80px;[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-#logo h1 a {[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-#logo p {[m
+[31m-	margin-top: -25px;[m
+[31m-	text-align: center;[m
+[31m-	font-family: 'Abel', sans-serif;[m
+[31m-	font-size: 25px;[m
+[31m-}[m
+[31m-[m
+[31m-#logo a {[m
+[31m-	border: none;[m
+[31m-	background: none;[m
+[31m-	text-decoration: none;[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-/* Search */[m
+[31m-[m
+[31m-#search {[m
+[31m-	float: right;[m
+[31m-	width: 280px;[m
+[31m-	height: 100px;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-#search form {[m
+[31m-	height: 41px;[m
+[31m-	margin: 0;[m
+[31m-	padding: 60px 0 0 30px;[m
+[31m-}[m
+[31m-[m
+[31m-#search fieldset {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-	border: none;[m
+[31m-}[m
+[31m-[m
+[31m-#search-text {[m
+[31m-	width: 195px;[m
+[31m-	padding: 6px 10px;[m
+[31m-	border: none;[m
+[31m-	background: #FFFFFF;[m
+[31m-	text-transform: lowercase;[m
+[31m-	font: normal 11px Arial, Helvetica, sans-serif;[m
+[31m-	color: #7F7F81;[m
+[31m-}[m
+[31m-[m
+[31m-#search-submit {[m
+[31m-	display: none;[m
+[31m-}[m
+[31m-[m
+[31m-/* Menu */[m
+[31m-[m
+[31m-#menu {[m
+[31m-	width: 940px;[m
+[31m-	height: 60px;[m
+[31m-	margin: 0px auto;[m
+[31m-	padding: 0px 20px 0px 20px;[m
+[31m-	background: gray repeat-x left top;[m
+[31m-}[m
+[31m-[m
+[31m-#menu ul {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0px 0px 0px 0px;[m
+[31m-	list-style: none;[m
+[31m-	line-height: normal;[m
+[31m-}[m
+[31m-[m
+[31m-#menu li {[m
+[31m-	float: left;[m
+[31m-	margin-right: 1px;[m
+[31m-}[m
+[31m-[m
+[31m-#menu a {[m
+[31m-	display: block;[m
+[31m-	float: left;[m
+[31m-	height: 60px;[m
+[31m-	margin: 0px;[m
+[31m-	padding: 0px 30px 0px 30px;[m
+[31m-	line-height: 60px;[m
+[31m-	letter-spacing: -1px;[m
+[31m-	text-decoration: none;[m
+[31m-	text-transform: lowercase;[m
+[31m-	text-shadow: 2px 2px 2px #2E7C0E;[m
+[31m-	font-family: 'Abel', sans-serif;	[m
+[31m-	font-size: 24px;[m
+[31m-	font-weight: normal;[m
+[31m-	color: #FFFFFF;[m
+[31m-	border: none;[m
+[31m-}[m
+[31m-[m
+[31m-#menu .current_page_item a {[m
+[31m-	text-shadow: 2px 2px 2px #1B5803;[m
+[31m-	background: rgb(58, 58, 58);[m
+[31m-}[m
+[31m-[m
+[31m-#menu a:hover {[m
+[31m-	background: rgb(58, 58, 58);[m
+[31m-	text-decoration: none;[m
+[31m-	text-shadow: 2px 2px 2px #1B5803;[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-/* Page */[m
+[31m-[m
+[31m-#page {[m
+[31m-	width: 980px;[m
+[31m-	margin: 0px auto;[m
+[31m-	padding: 0px;[m
+[31m-}[m
+[31m-[m
+[31m-/* Content */[m
+[31m-[m
+[31m-#content {[m
+[31m-	float: right;[m
+[31m-	width: 590px;[m
+[31m-	height: 630px;[m
+[31m-	padding: 30px 30px 0px 30px;[m
+[31m-	background: #FFFFFF url(images/content-bg-bottom.png) no-repeat left bottom;[m
+[31m-}[m
+[31m-[m
+[31m-.post {[m
+[31m-	clear: both;[m
+[31m-	padding-bottom: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.post .title {[m
+[31m-	padding-top: 10px;[m
+[31m-	letter-spacing: -4px;[m
+[31m-	text-transform: lowercase;[m
+[31m-	font-size: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-.post .title a {[m
+[31m-	border: none;[m
+[31m-	color: #272727;[m
+[31m-}[m
+[31m-[m
+[31m-.post .meta {[m
+[31m-	padding-bottom: 10px;[m
+[31m-	text-align: left;[m
+[31m-	font-family: Arial, Helvetica, sans-serif;[m
+[31m-	font-size: 11px;[m
+[31m-	font-style: italic;[m
+[31m-}[m
+[31m-[m
+[31m-.post .meta a {[m
+[31m-}[m
+[31m-[m
+[31m-.post .entry {[m
+[31m-	text-align: justify;[m
+[31m-	margin-bottom: 25px;[m
+[31m-	padding: 10px 0px 0px 0px;[m
+[31m-}[m
+[31m-[m
+[31m-.links {[m
+[31m-	display: block;[m
+[31m-	width: 96px;[m
+[31m-	padding: 2px 0px 2px 0px;[m
+[31m-	background: #A53602;[m
+[31m-	text-align: center;[m
+[31m-	text-transform: uppercase;[m
+[31m-	font-size: 10px;[m
+[31m-	color: #FFFFFF;[m
+[31m-}[m
+[31m-[m
+[31m-/* Sidebar */[m
+[31m-[m
+[31m-#sidebar-bg {[m
+[31m-	float: left;[m
+[31m-	width: 330px;[m
+[31m-	background: url(images/sidebar-shadow-bg.png) repeat-y left top;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar {[m
+[31m-	overflow: hidden;[m
+[31m-	width: 270px;[m
+[31m-	height: 600px;[m
+[31m-	padding: 30px 30px 20px 30px;[m
+[31m-	background: url(images/sidebar-bg-bottom.png) no-repeat left bottom;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar ul {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-	list-style: none;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar li {[m
+[31m-	margin: 0;[m
+[31m-	padding: 0;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar li ul {[m
+[31m-	margin: 0px 0px;[m
+[31m-	padding-bottom: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar li li {[m
+[31m-	padding-left: 30px;[m
+[31m-	line-height: 35px;[m
+[31m-	background: url(images/img01.gif) no-repeat left 5px;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar li li span {[m
+[31m-	display: block;[m
+[31m-	margin-top: -20px;[m
+[31m-	padding: 0;[m
+[31m-	font-size: 11px;[m
+[31m-	font-style: italic;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar h2 {[m
+[31m-	height: 38px;[m
+[31m-	margin-bottom: 20px;[m
+[31m-	padding: 12px 0 0 0px;[m
+[31m-	border-bottom: 1px solid #DEDEDE;[m
+[31m-	letter-spacing: -2px;[m
+[31m-	font-size: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar p {[m
+[31m-	margin: 0 0px;[m
+[31m-	padding: 0px 20px 20px 20px;[m
+[31m-	text-align: justify;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar a {[m
+[31m-	border: none;[m
+[31m-}[m
+[31m-[m
+[31m-#sidebar a:hover {[m
+[31m-	text-decoration: underline;[m
+[31m-}[m
+[31m-[m
+[31m-/* Calendar */[m
+[31m-[m
+[31m-#calendar {[m
+[31m-}[m
+[31m-[m
+[31m-#calendar_wrap {[m
+[31m-	padding: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-#calendar table {[m
+[31m-	width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-#calendar tbody td {[m
+[31m-	text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-#calendar #next {[m
+[31m-	text-align: right;[m
+[31m-}[m
+[31m-[m
+[31m-/* Footer */[m
+[31m-[m
+[31m-#footer {[m
+[31m-	width: 650px;[m
+[31m-	height: 100px;[m
+[31m-	margin: 0px auto;[m
+[31m-	padding-left: 330px;[m
+[31m-}[m
+[31m-[m
+[31m-#footer p {[m
+[31m-	margin: 0;[m
+[31m-	padding-top: 18px;[m
+[31m-	line-height: normal;[m
+[31m-	letter-spacing: -1px;[m
+[31m-	text-align: center;[m
+[31m-	text-shadow: 1px 1px 1px #050505;[m
+[31m-	text-transform: lowercase;[m
+[31m-	font-family: 'Abel', sans-serif;[m
+[31m-	font-size: 20px;[m
+[31m-	color: #525050;[m
+[31m-}[m
+[31m-[m
+[31m-#footer a {[m
+[31m-	text-decoration: underline;[m
+[31m-	color: #525050;[m
+[31m-}[m
+[31m-[m
+[31m-#slider {[m
+[31m-	position: relative;[m
+[31m-	width: 590px;[m
+[31m-	margin: 0px auto 0px auto;[m
+[31m-}[m
+[31m-[m
+[31m-#slider .viewer {[m
+[31m-	width: 150px;[m
+[31m-	height: 100px;[m
+[31m-	overflow: hidden;[m
+[31m-	margin: 0 auto;[m
+[31m-}[m
+[31m-[m
+[31m-#slider .viewer .reel {[m
+[31m-	display: none;[m
+[31m-	height: 300px;[m
+[31m-}[m
+[31m-[m
+[31m-#slider .viewer .reel .slide {[m
+[31m-	position: relative;[m
+[31m-	width: 590px;[m
+[31m-	height: 300px;[m
+[31m-}[m
