@@ -40,6 +40,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+bin
 
 # Dependency directories
 node_modules/
@@ -190,7 +191,7 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
-*.properties
+application.properties
 
 # Editor-based Rest Client
 .idea/httpRequests

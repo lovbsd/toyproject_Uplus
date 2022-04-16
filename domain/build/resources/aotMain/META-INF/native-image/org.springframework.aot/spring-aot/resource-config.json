@@ -59,10 +59,13 @@
         "pattern": "logging.properties"
       },
       {
-        "pattern": "mapper/main/mapper.xml"
+        "pattern": "mapper/admin/CodeAdmin.xml"
       },
       {
-        "pattern": "mapper/mini/miniMapper.xml"
+        "pattern": "mapper/login/CodeLogin.xml"
+      },
+      {
+        "pattern": "mapper/main/CodeMain.xml"
       },
       {
         "pattern": "messages/.*"

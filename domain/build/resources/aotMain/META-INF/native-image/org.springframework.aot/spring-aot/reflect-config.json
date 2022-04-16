@@ -209,19 +209,19 @@
     ]
   },
   {
-    "name": "com.uplus.domain.mini.controller.MiniController",
+    "name": "com.uplus.domain.admin.controller.MiniController",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.mini.service.MiniService"
+          "com.uplus.domain.admin.service.MiniService"
         ]
       }
     ]
   },
   {
-    "name": "com.uplus.domain.mini.dto.MiniDTO",
+    "name": "com.uplus.domain.admin.dto.MiniDTO",
     "allPublicFields": true,
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -230,35 +230,35 @@
     "allPublicMethods": true
   },
   {
-    "name": "com.uplus.domain.mini.service.MiniService",
+    "name": "com.uplus.domain.admin.service.MiniService",
     "allDeclaredMethods": true
   },
   {
-    "name": "com.uplus.domain.mini.service.MiniServiceImpl",
+    "name": "com.uplus.domain.admin.service.MiniServiceImpl",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.mini.mapper.MiniMapper"
+          "com.uplus.domain.admin.mapper.MiniMapper"
         ]
       }
     ]
   },
   {
-    "name": "com.uplus.domain.noohki.controller.NoohkiController",
+    "name": "com.uplus.domain.login.controller.NoohkiController",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.noohki.service.NoohkiService"
+          "com.uplus.domain.login.service.NoohkiService"
         ]
       }
     ]
   },
   {
-    "name": "com.uplus.domain.noohki.dto.NoohkiDTO",
+    "name": "com.uplus.domain.login.dto.NoohkiDTO",
     "allPublicFields": true,
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -267,35 +267,35 @@
     "allPublicMethods": true
   },
   {
-    "name": "com.uplus.domain.noohki.service.NoohkiService",
+    "name": "com.uplus.domain.login.service.NoohkiService",
     "allDeclaredMethods": true
   },
   {
-    "name": "com.uplus.domain.noohki.service.NoohkiServiceImpl",
+    "name": "com.uplus.domain.login.service.NoohkiServiceImpl",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.noohki.mapper.NoohkiMapper"
+          "com.uplus.domain.login.mapper.NoohkiMapper"
         ]
       }
     ]
   },
   {
-    "name": "com.uplus.domain.sobo.controller.TestController",
+    "name": "com.uplus.domain.main.controller.CodeMainController",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.sobo.service.TestService"
+          "com.uplus.domain.main.service.CodeMainService"
         ]
       }
     ]
   },
   {
-    "name": "com.uplus.domain.sobo.dto.TestDTO",
+    "name": "com.uplus.domain.main.dto.CodeMainDTO",
     "allPublicFields": true,
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
@@ -304,17 +304,17 @@
     "allPublicMethods": true
   },
   {
-    "name": "com.uplus.domain.sobo.service.TestService",
+    "name": "com.uplus.domain.main.service.CodeMainService",
     "allDeclaredMethods": true
   },
   {
-    "name": "com.uplus.domain.sobo.service.TestServiceImpl",
+    "name": "com.uplus.domain.main.service.CodeMainServiceImpl",
     "allDeclaredMethods": true,
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": [
-          "com.uplus.domain.sobo.mapper.TestMapper"
+          "com.uplus.domain.main.mapper.CodeMainMapper"
         ]
       }
     ]
