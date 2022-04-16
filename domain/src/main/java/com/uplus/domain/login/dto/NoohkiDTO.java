@@ -1,4 +1,4 @@
-package com.uplus.domain.noohki.dto;
+package com.uplus.domain.login.dto;
 
 import lombok.Data;
 

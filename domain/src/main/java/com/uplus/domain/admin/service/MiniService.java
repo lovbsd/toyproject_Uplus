@@ -1,6 +1,6 @@
-package com.uplus.domain.mini.service;
+package com.uplus.domain.admin.service;
 
-import com.uplus.domain.mini.dto.MiniDTO;
+import com.uplus.domain.admin.dto.MiniDTO;
 
 import java.util.List;
 

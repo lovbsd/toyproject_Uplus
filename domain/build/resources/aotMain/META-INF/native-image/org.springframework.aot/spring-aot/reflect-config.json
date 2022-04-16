@@ -209,6 +209,154 @@
     ]
   },
   {
+    "name": "com.uplus.domain.mini.controller.MiniController",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.mini.service.MiniService"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.uplus.domain.mini.dto.MiniDTO",
+    "allPublicFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.uplus.domain.mini.service.MiniService",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.uplus.domain.mini.service.MiniServiceImpl",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.mini.mapper.MiniMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.uplus.domain.noohki.controller.NoohkiController",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.noohki.service.NoohkiService"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.uplus.domain.noohki.dto.NoohkiDTO",
+    "allPublicFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.uplus.domain.noohki.service.NoohkiService",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.uplus.domain.noohki.service.NoohkiServiceImpl",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.noohki.mapper.NoohkiMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.uplus.domain.sobo.controller.TestController",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.sobo.service.TestService"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.uplus.domain.sobo.dto.TestDTO",
+    "allPublicFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.uplus.domain.sobo.service.TestService",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.uplus.domain.sobo.service.TestServiceImpl",
+    "allDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "com.uplus.domain.sobo.mapper.TestMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariConfigMXBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariDataSource",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariPoolMXBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry",
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry[]"
+  },
+  {
     "name": "double"
   },
   {
@@ -216,6 +364,9 @@
   },
   {
     "name": "java.io.File"
+  },
+  {
+    "name": "java.io.PrintWriter"
   },
   {
     "name": "java.lang.Boolean"
@@ -230,7 +381,16 @@
     "name": "java.lang.ClassLoader"
   },
   {
+    "name": "java.lang.Double"
+  },
+  {
+    "name": "java.lang.Float"
+  },
+  {
     "name": "java.lang.Integer"
+  },
+  {
+    "name": "java.lang.Long"
   },
   {
     "name": "java.lang.Object"
@@ -254,6 +414,25 @@
     "name": "java.nio.charset.Charset"
   },
   {
+    "name": "java.sql.Connection"
+  },
+  {
+    "name": "java.sql.DatabaseMetaData",
+    "methods": [
+      {
+        "name": "getDatabaseProductName",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.sql.Statement",
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.sql.Statement[]"
+  },
+  {
     "name": "java.time.Duration"
   },
   {
@@ -262,6 +441,9 @@
       "typeReachable": "org.springframework.boot.SpringApplication"
     },
     "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.Collection"
   },
   {
     "name": "java.util.LinkedHashSet",
@@ -280,10 +462,22 @@
     "name": "java.util.Map"
   },
   {
+    "name": "java.util.Properties"
+  },
+  {
     "name": "java.util.Set"
   },
   {
     "name": "java.util.TimeZone"
+  },
+  {
+    "name": "java.util.concurrent.ScheduledExecutorService"
+  },
+  {
+    "name": "java.util.concurrent.ThreadFactory"
+  },
+  {
+    "name": "java.util.concurrent.locks.ReadWriteLock"
   },
   {
     "name": "java.util.logging.LogManager",
@@ -292,6 +486,9 @@
     },
     "allDeclaredConstructors": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "java.util.logging.Logger"
   },
   {
     "name": "javax.annotation.PostConstruct",
@@ -323,6 +520,15 @@
     "allPublicMethods": true
   },
   {
+    "name": "javax.sql.DataSource",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "long"
+  },
+  {
     "name": "org.apache.coyote.AbstractProtocol",
     "condition": {
       "typeReachable": "org.apache.catalina.startup.Tomcat"
@@ -340,6 +546,418 @@
       "typeReachable": "org.apache.catalina.startup.Tomcat"
     },
     "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.ibatis.binding.MapperRegistry",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.ibatis.session.Configuration"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.builder.CacheRefResolver",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.ibatis.builder.MapperBuilderAssistant",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.builder.ResultMapResolver",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.ibatis.builder.MapperBuilderAssistant",
+          "java.lang.String",
+          "java.lang.Class",
+          "java.lang.String",
+          "org.apache.ibatis.mapping.Discriminator",
+          "java.util.List",
+          "java.lang.Boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.builder.annotation.MethodResolver",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.ibatis.builder.annotation.MapperAnnotationBuilder",
+          "java.lang.reflect.Method"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.builder.xml.XMLStatementBuilder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.cache.Cache",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.executor.keygen.KeyGenerator",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.executor.loader.ProxyFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.logging.Log",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.mapping.Discriminator",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.Environment",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "org.apache.ibatis.transaction.TransactionFactory",
+          "javax.sql.DataSource"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.MappedStatement",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ParameterMap",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ParameterMapping",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ParameterMode",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ResultFlag",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ResultMap",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ResultMapping",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.ResultSetType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.SqlCommandType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.mapping.SqlSource",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.mapping.StatementType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.parsing.XNode",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.ibatis.parsing.XPathParser",
+          "org.w3c.dom.Node",
+          "java.util.Properties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.plugin.Interceptor",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.reflection.ReflectorFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.reflection.factory.ObjectFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.reflection.wrapper.ObjectWrapperFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.scripting.LanguageDriver",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.scripting.LanguageDriverRegistry",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.session.AutoMappingBehavior",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.session.AutoMappingUnknownColumnBehavior",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.session.Configuration",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.session.ExecutorType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.session.LocalCacheScope",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.transaction.TransactionFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.type.JdbcType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.type.TypeAliasRegistry",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.ibatis.type.TypeHandler",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.ibatis.type.TypeHandlerRegistry",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
   },
   {
     "name": "org.apache.logging.log4j.message.DefaultFlowMessageFactory",
@@ -373,11 +991,121 @@
     }
   },
   {
+    "name": "org.hamcrest.TypeSafeDiagnosingMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.TypeSafeMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasProperty",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasPropertyWithValue",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.mybatis.spring.boot.autoconfigure.MybatisProperties",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.core.io.ResourceLoader",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "sqlSessionFactory",
+        "parameterTypes": [
+          "javax.sql.DataSource"
+        ]
+      },
+      {
+        "name": "sqlSessionTemplate",
+        "parameterTypes": [
+          "org.apache.ibatis.session.SqlSessionFactory"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
     "name": "org.mybatis.spring.boot.autoconfigure.MybatisLanguageDriverAutoConfiguration",
     "methods": [
       {
         "name": "<init>",
         "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.mybatis.spring.boot.autoconfigure.MybatisProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.mybatis.spring.mapper.MapperFactoryBean",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "setMapperInterface",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      },
+      {
+        "name": "setAddToConfig",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.mybatis.spring.support.SqlSessionDaoSupport",
+    "methods": [
+      {
+        "name": "setSqlSessionTemplate",
+        "parameterTypes": [
+          "org.mybatis.spring.SqlSessionTemplate"
+        ]
       }
     ]
   },
@@ -396,6 +1124,26 @@
     "name": "org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.aop.framework.ProxyProcessorSupport",
+    "methods": [
+      {
+        "name": "setOrder",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
   },
   {
     "name": "org.springframework.beans.factory.annotation.Autowired",
@@ -779,6 +1527,60 @@
     ]
   },
   {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dataSource",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
     "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
     "allDeclaredMethods": true,
     "allPublicMethods": true,
@@ -806,6 +1608,123 @@
       {
         "name": "<init>",
         "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionManager",
+        "parameterTypes": [
+          "org.springframework.core.env.Environment",
+          "javax.sql.DataSource",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcProperties$Template",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "jdbcTemplate",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.boot.autoconfigure.jdbc.JdbcProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "namedParameterJdbcTemplate",
+        "parameterTypes": [
+          "org.springframework.jdbc.core.JdbcTemplate"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "hikariPoolDataSourceMetadataProvider",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dataSourceScriptDatabaseInitializer",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties"
+        ]
       }
     ]
   },
@@ -961,6 +1880,39 @@
         "name": "transactionalOperator",
         "parameterTypes": [
           "org.springframework.transaction.ReactiveTransactionManager"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$JdkDynamicAutoProxyConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionTemplate",
+        "parameterTypes": [
+          "org.springframework.transaction.PlatformTransactionManager"
         ]
       }
     ]
@@ -2237,6 +3189,10 @@
     ]
   },
   {
+    "name": "org.springframework.context.annotation.AutoProxyRegistrar",
+    "allDeclaredConstructors": true
+  },
+  {
     "name": "org.springframework.context.annotation.ComponentScan",
     "allDeclaredMethods": true
   },
@@ -2366,6 +3322,7 @@
   },
   {
     "name": "org.springframework.stereotype.Service",
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -2377,13 +3334,59 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration",
+    "methods": [
+      {
+        "name": "setConfigurers",
+        "parameterTypes": [
+          "java.util.Collection"
+        ]
+      },
+      {
+        "name": "transactionalEventListenerFactory",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.transaction.annotation.EnableTransactionManagement",
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.transaction.annotation.Propagation",
     "allDeclaredFields": true,
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration",
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "transactionAdvisor",
+        "parameterTypes": [
+          "org.springframework.transaction.interceptor.TransactionAttributeSource",
+          "org.springframework.transaction.interceptor.TransactionInterceptor"
+        ]
+      },
+      {
+        "name": "transactionAttributeSource",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionInterceptor",
+        "parameterTypes": [
+          "org.springframework.transaction.interceptor.TransactionAttributeSource"
+        ]
+      }
+    ]
+  },
+  {
     "name": "org.springframework.transaction.annotation.Transactional",
     "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor$1",
+    "allDeclaredConstructors": true
   },
   {
     "name": "org.springframework.util.unit.DataSize",
@@ -2479,6 +3482,7 @@
   },
   {
     "name": "org.springframework.web.bind.annotation.ResponseBody",
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -2487,6 +3491,7 @@
   },
   {
     "name": "org.springframework.web.bind.annotation.RestController",
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -2604,6 +3609,24 @@
         "parameterTypes": []
       }
     ]
+  },
+  {
+    "name": "org.w3c.dom.NamedNodeMap",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.w3c.dom.Node",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.w3c.dom.NodeList",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.yaml.snakeyaml.Yaml",

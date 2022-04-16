@@ -1,3 +1,9 @@
 #
-#Wed Mar 30 23:39:26 KST 2022
+#Sat Apr 16 21:28:58 KST 2022
+com.uplus.domain.mini.controller.MiniController=org.springframework.stereotype.Component
 com.uplus.domain.DomainApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.uplus.domain.mini.service.MiniServiceImpl=org.springframework.stereotype.Component
+com.uplus.domain.noohki.controller.NoohkiController=org.springframework.stereotype.Component
+com.uplus.domain.noohki.service.NoohkiServiceImpl=org.springframework.stereotype.Component
+com.uplus.domain.sobo.controller.TestController=org.springframework.stereotype.Component
+com.uplus.domain.sobo.service.TestServiceImpl=org.springframework.stereotype.Component

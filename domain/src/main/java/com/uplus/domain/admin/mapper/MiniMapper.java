@@ -1,10 +1,9 @@
-package com.uplus.domain.mini.mapper;
+package com.uplus.domain.admin.mapper;
+
+import com.uplus.domain.admin.dto.MiniDTO;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
-
-import com.uplus.domain.mini.dto.MiniDTO;
-
-import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface MiniMapper {

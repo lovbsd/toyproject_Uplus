@@ -1,7 +1,7 @@
-package com.uplus.domain.mini.service;
+package com.uplus.domain.admin.service;
 
-import com.uplus.domain.mini.dto.MiniDTO;
-import com.uplus.domain.mini.mapper.MiniMapper;
+import com.uplus.domain.admin.dto.MiniDTO;
+import com.uplus.domain.admin.mapper.MiniMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.uplus.domain.noohki.service;
+package com.uplus.domain.login.service;
 
 import java.util.List;
 
-import com.uplus.domain.noohki.dto.NoohkiDTO;
-import com.uplus.domain.noohki.mapper.NoohkiMapper;
+import com.uplus.domain.login.dto.NoohkiDTO;
+import com.uplus.domain.login.mapper.NoohkiMapper;
 
 import org.springframework.stereotype.Service;
 

@@ -50,16 +50,28 @@
         "pattern": "banner.txt"
       },
       {
+        "pattern": "data.sql"
+      },
+      {
         "pattern": "db/.*"
       },
       {
         "pattern": "logging.properties"
       },
       {
+        "pattern": "mapper/main/mapper.xml"
+      },
+      {
+        "pattern": "mapper/mini/miniMapper.xml"
+      },
+      {
         "pattern": "messages/.*"
       },
       {
         "pattern": "org/apache/catalina/startup/MimeTypeMappings.properties"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration\\$EnableTransactionManagementConfiguration\\$JdkDynamicAutoProxyConfiguration.class"
       },
       {
         "pattern": "org/springframework/boot/logging/.*.properties"
@@ -75,6 +87,9 @@
       },
       {
         "pattern": "org/springframework/web/util/HtmlCharacterEntityReferences.properties"
+      },
+      {
+        "pattern": "schema.sql"
       },
       {
         "pattern": "spring.properties"

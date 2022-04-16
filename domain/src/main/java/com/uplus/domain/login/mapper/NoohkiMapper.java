@@ -1,8 +1,8 @@
-package com.uplus.domain.noohki.mapper;
+package com.uplus.domain.login.mapper;
 
 import java.util.List;
 
-import com.uplus.domain.noohki.dto.NoohkiDTO;
+import com.uplus.domain.login.dto.NoohkiDTO;
 
 import org.apache.ibatis.annotations.Mapper;
 
