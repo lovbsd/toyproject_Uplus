@@ -9,4 +9,5 @@ public class NoohkiDTO {
     public String userName;
     public String devName;
     public String phoneNumber;
+    public String level;
 }
