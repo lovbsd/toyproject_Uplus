@@ -18,5 +18,5 @@ public class MiniServiceImpl implements MiniService {
     @Override
     public List<MiniDTO> selectMini() {
         return miniMapper.selectMini();
-    }
+    } 
 }
