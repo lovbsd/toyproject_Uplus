@@ -17,7 +17,7 @@ public class NoohkiController {
         this.noohkiService = noohkiService;
     }
 
-    @GetMapping("/main/Noohki")
+    @GetMapping("/login/Noohki")
     public List<NoohkiDTO> testhome() {
 
         List<NoohkiDTO> list = noohkiService.selectList();
