@@ -4,5 +4,6 @@
     <select id="selectList" resultType="CodeMainDTO">
         SELECT 	NAME,DEVNAME,HDPNO,	BIRTHDATE,CONTENT
         FROM MASTER
+        WHERE DEVNAME = 'bogus'
     </select>
 </mapper>
