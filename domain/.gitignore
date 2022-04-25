@@ -100,7 +100,6 @@ dist
 
 # Serverless directories
 .serverless/
-
 # FuseBox cache
 .fusebox/
 
@@ -192,7 +191,7 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 application.properties
-
+build/
 # Editor-based Rest Client
 .idea/httpRequests
 
