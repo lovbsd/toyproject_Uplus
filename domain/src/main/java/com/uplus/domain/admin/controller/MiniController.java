@@ -18,10 +18,10 @@ public class MiniController {
      public MiniController(MiniService miniService){
          this.miniService = miniService;
      }
-
+     //aa
      @GetMapping(value = "/admin/mini")
      public List<MiniDTO> minimetohed() {
- 
+
          List<MiniDTO> list = miniService.selectMini();
          return list;
      }
