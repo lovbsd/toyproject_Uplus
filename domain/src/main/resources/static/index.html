@@ -26,10 +26,17 @@ Released   : 20120422
 	document.getElementById("menu").addEventListener("mouseover", function (event) {
 		element.classList.replace('', 'current_page_item');
 	}, false);
-
 	document.getElementById("menu").addEventListener("mouseout", function (event) {
 		element.classList.replace('current_page_item', '');
 	}, false);
+
+	// Noohki - click and move to Noohki's Menu
+	function clickNoohki() {
+		alert('Noohki의 메뉴로 이동');
+	};
+	
+
+	
 
 </script>
 </head>
@@ -49,7 +56,7 @@ Released   : 20120422
 			<li><a href="#">Bogus</a></li>
 			<li><a href="#">mini</a></li>
 			<li><a href="#">やまもと</a></li>
-			<li><a href="#">Noohki</a></li>
+			<li id="noohki" onclick="clickNoohki()"><a href="#">Noohki</id=a></li>
 		</ul>
 	</div>
 	<!-- end #menu -->
