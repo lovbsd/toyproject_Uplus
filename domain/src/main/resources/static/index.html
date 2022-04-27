@@ -20,6 +20,25 @@ Released   : 20120422
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+<script>
+	
+	// Noohki - Navigation mouseOver event
+	document.getElementById("menu").addEventListener("mouseover", function (event) {
+		element.classList.replace('', 'current_page_item');
+	}, false);
+	document.getElementById("menu").addEventListener("mouseout", function (event) {
+		element.classList.replace('current_page_item', '');
+	}, false);
+
+	// Noohki - click and move to Noohki's Menu
+	function clickNoohki() {
+		alert('Noohki의 메뉴로 이동');
+	};
+	
+
+	
+
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -27,17 +46,17 @@ Released   : 20120422
 		<div id="header">
 			<div id="logo">
 				<h1><a href="#"><b>Y</b>ou <b>C</b>ode?</a></h1>
-				<p>Design by Ikhoon</a></p>
+				<p>Design by Noohki</a></p>
 			</div>
 		</div>
 	</div>
 	<!-- end #header -->
 	<div id="menu">
 		<ul>
-			<li class="current_page_item"><a href="#">You Code란?</a></li>
-			<li><a href="#">코드모음</a></li>
-			<li><a href="#">커뮤니티</a></li>
-			<li><a href="#">개선</a></li>
+			<li><a href="#">Bogus</a></li>
+			<li><a href="#">mini</a></li>
+			<li><a href="#">やまもと</a></li>
+			<li id="noohki" onclick="clickNoohki()"><a href="login/index.html">Noohki</id=a></li>
 		</ul>
 	</div>
 	<!-- end #menu -->

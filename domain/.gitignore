@@ -100,7 +100,6 @@ dist
 
 # Serverless directories
 .serverless/
-
 # FuseBox cache
 .fusebox/
 
@@ -192,7 +191,7 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 application.properties
-
+build/
 # Editor-based Rest Client
 .idea/httpRequests
 
@@ -204,7 +203,11 @@ application.properties
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
 .idea/
-
+.idea/modules.xml
+.idea/misc.xml
+.idea/toyproject_Uplus.eml
+.idea/toyproject_Uplus.iml
+.idea/vcs.xml
 # Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
 
 *.iml

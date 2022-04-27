@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class NoohkiDTO {
     public String id;
-    public String pwd;
+    public String passWord;
     public String userName;
     public String devName;
     public String phoneNumber;
