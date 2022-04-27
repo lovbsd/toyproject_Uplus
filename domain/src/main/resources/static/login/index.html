@@ -20,6 +20,23 @@ Released   : 20120422
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+<script>
+	
+	window.onload = function() {
+		document.getElementById("noohki").className = 'current_page_item';
+	}
+
+	
+	// Noohki - Navigation mouseOver event
+	// document.getElementById("menu").addEventListener("mouseover", function (event) {
+	// 	element.classList.replace('', 'current_page_item');
+	// }, false);
+	// document.getElementById("menu").addEventListener("mouseout", function (event) {
+	// 	element.classList.replace('current_page_item', '');
+	// }, false);
+	
+
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -34,81 +51,30 @@ Released   : 20120422
 	<!-- end #header -->
 	<div id="menu">
 		<ul>
-			<li class="current_page_item"><a href="#">You Code란?</a></li>
-			<li><a href="#">코드모음</a></li>
-			<li><a href="#">커뮤니티</a></li>
-			<li><a href="#">개선</a></li>
+			<li><a href="#">Bogus</a></li>
+			<li><a href="#">mini</a></li>
+			<li><a href="#">やまもと</a></li>
+			<li id="noohki"><a href="#">Noohki</a></li>
 		</ul>
 	</div>
 	<!-- end #menu -->
 	<div id="page">
 		<div id="content">
 			<div id="slider">
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide"> <h1><b>You Code?</b></h1> </div>
-						<div class="slide"> <h1><b>Yes!!!!!!</b></h1> </div>
-					</div>
+				<img src="image/noohki.jpg" width="500px" height="500px">
+				<div style="font-size: large; text-align: center;">
+					<b>Noohki</b> (POS의 DB서버 관리자)
 				</div>
 			</div>
-			<script type="text/javascript">
-				$('#slider').slidertron({
-					viewerSelector: '.viewer',
-					reelSelector: '.viewer .reel',
-					slidesSelector: '.viewer .reel .slide',
-					advanceDelay: 3000,
-					speed: 'slow'
-				});
-			</script>
-
-			<div class="post">
-				<h2 class="title"><a href="#">You Code?</a></h2>
-				<p class="meta">Posted by <a href="#">Someone</a> on April 22, 2012
-					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
-				<div class="entry">
-					<p>You Code는 code를 정리해놓고 이를 사용해볼 수 있는 사이트입니다.</p>
-					<p>자유롭게 의견을 공유해주세요..^^</p>
-				</div>
-			</div>
-			<div class="post">
-				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
-				<p class="meta">Posted by <a href="#">Someone</a> on April 19, 2012
-					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
-				<div class="entry">
-					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus </p>
-				</div>
-			</div>
-			<div style="clear: both;">&nbsp;</div>
-		</div>
-		<!-- end #content -->
-		<div id="sidebar-bg">
-			<div id="sidebar">
-				<ul>
-					<li>
-						<h2>You Code</h2>
-						<p>현우 창민 익훈 성보</p>
-					</li>
-					<li>
-						<h2>대분류</h2>
-						<ul>
-							<li><a href="#">코드분류1</a></li>
-							<li><a href="#">코드분류2</a></li>
-							<li><a href="#">코드분류3</a></li>
-							<li><a href="#">코드분류4</a></li>
-						</ul>
-					</li>
-					<li>
-						<h2>End</h2>
-						<ul>
-							<p>불펌금지</p>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- end #sidebar -->
-		<div style="clear: both;">&nbsp;</div>
 	</div>
+	
+	<div id="sidebar-bg" style="background-color: white">
+		<div id="sidebar">
+			
+		</div>
+	</div>
+
+			
 	<!-- end #page -->
 </div>
 <div id="footer">
