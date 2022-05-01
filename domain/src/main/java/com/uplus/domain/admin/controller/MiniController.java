@@ -24,9 +24,6 @@ public class MiniController {
      @GetMapping(value = "/admin/mini")
      public List<MiniDTO> minimetohed(Model model, MiniDTO miniDTO) {
          List<MiniDTO> list = miniService.selectMini(miniDTO);
-         for(int i=0; i<list.size(); i++){
-            System.out.println("@@@@@@@@"+list.get(i));
-         }
          return list;
      }
 }

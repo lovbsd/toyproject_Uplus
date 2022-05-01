@@ -11,14 +11,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){ 
-				alert("Ewqewq");
-				dataSend();
-				
-				
+			tableBind();
 		});
 
 
-		function dataSend() {
+		function tableBind() {
 			var data=$("#input").val();
 			var miniDTO={
 				result:data
@@ -28,10 +25,11 @@
 				data: miniDTO,
 				type:"GET",
 			}).done(function (result) {
-				let index = 0;
+				let index = 1;
 				let htmlTag = "";
+				let hdpno = "";
 				htmlTag +=  "<tr>";
-				htmlTag +=  "<th>index</th>";
+				htmlTag +=  "<th>순번</th>";
 				htmlTag +=  "<th>이름</th>";
 				htmlTag +=  "<th>닉네임</th>";
 				htmlTag +=  "<th>핸드폰번호</th>";
@@ -39,11 +37,12 @@
 				htmlTag +=  "<th>내용</th>";
 				htmlTag +=  "</tr>";
 				$.each(result, function(i,item){
+					hdpno = phoneFormat("0"+item.hdpno);
 					htmlTag +=  "<tr>";
 					htmlTag +=	"<td>" + index + "</td>";
 					htmlTag +=	"<td>" + item.name + "</td>";
 					htmlTag +=	"<td>" + item.devname + "</td>";
-					htmlTag +=	"<td>" + "0" + item.hdpno + "</td>";
+					htmlTag +=	"<td>" + hdpno + "</td>";
 					htmlTag +=	"<td>" + item.birthdate + "</td>";
 					htmlTag +=	"<td>" + item.content + "</td>";
 					htmlTag +=	"</tr>";
@@ -52,8 +51,11 @@
 				$('#memberList').html(htmlTag);
 			});
 		}
-
-
+		//핸드폰 번호 하이픈 넣기
+		function phoneFormat(str){
+			let phoneNum = str.replace(/(^02.{0}|^01.{1}|[0-9]{3})([0-9]+)([0-9]{4})/,"$1-$2-$3");
+			return phoneNum;
+		}
 	</script>
 </head>
 

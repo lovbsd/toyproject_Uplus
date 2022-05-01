@@ -14,5 +14,6 @@
         <if test='devname != "" and devname != null'>
             DEVNAME = #{devname}
         </if>
+        order by NAME ASC
     </select>
 </mapper>
