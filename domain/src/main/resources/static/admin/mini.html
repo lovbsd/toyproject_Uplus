@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		th,td{padding:15px;  width: 300px; text-align: center;};
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+				alert("Ewqewq");
+				dataSend();
+				
+				
+		});
+
+
+		function dataSend() {
+			var data=$("#input").val();
+			var miniDTO={
+				result:data
+			};
+			$.ajax({
+				url: "/admin/mini",
+				data: miniDTO,
+				type:"GET",
+			}).done(function (result) {
+				let index = 0;
+				let htmlTag = "";
+				htmlTag +=  "<tr>";
+				htmlTag +=  "<th>index</th>";
+				htmlTag +=  "<th>이름</th>";
+				htmlTag +=  "<th>닉네임</th>";
+				htmlTag +=  "<th>핸드폰번호</th>";
+				htmlTag +=  "<th>생일</th>";
+				htmlTag +=  "<th>내용</th>";
+				htmlTag +=  "</tr>";
+				$.each(result, function(i,item){
+					htmlTag +=  "<tr>";
+					htmlTag +=	"<td>" + index + "</td>";
+					htmlTag +=	"<td>" + item.name + "</td>";
+					htmlTag +=	"<td>" + item.devname + "</td>";
+					htmlTag +=	"<td>" + "0" + item.hdpno + "</td>";
+					htmlTag +=	"<td>" + item.birthdate + "</td>";
+					htmlTag +=	"<td>" + item.content + "</td>";
+					htmlTag +=	"</tr>";
+					index++;
+				});
+				$('#memberList').html(htmlTag);
+			});
+		}
+
+
+	</script>
+</head>
+
+<body>
+	<h1 style="text-align:center;">회원 목록</h1>
+	<table id="memberList" style="border:1;">
+		
+	</table>
+</body>
+</html>

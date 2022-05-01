@@ -34,7 +34,13 @@ Released   : 20120422
 	function clickNoohki() {
 		alert('Noohki의 메뉴로 이동');
 	};
-	
+
+	function clickMini() {
+		alert("mini");
+	}
+	let mini = document.getelementbyId('mini');
+	console.log(mini);
+	mini.addEventListener('click',clickMini);
 
 	
 
@@ -54,7 +60,7 @@ Released   : 20120422
 	<div id="menu">
 		<ul>
 			<li><a href="#">Bogus</a></li>
-			<li><a href="#">mini</a></li>
+			<li id="mini" onclick="clickMini()"><a href="admin/mini.html">mini</a></li>
 			<li><a href="#">やまもと</a></li>
 			<li id="noohki" onclick="clickNoohki()"><a href="login/index.html">Noohki</id=a></li>
 		</ul>

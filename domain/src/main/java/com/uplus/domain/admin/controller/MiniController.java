@@ -3,8 +3,10 @@ package com.uplus.domain.admin.controller;
 import com.uplus.domain.admin.dto.MiniDTO;
 import com.uplus.domain.admin.service.MiniService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -20,9 +22,11 @@ public class MiniController {
      }
      //ab
      @GetMapping(value = "/admin/mini")
-     public List<MiniDTO> minimetohed() {
-
-         List<MiniDTO> list = miniService.selectMini();
+     public List<MiniDTO> minimetohed(Model model, MiniDTO miniDTO) {
+         List<MiniDTO> list = miniService.selectMini(miniDTO);
+         for(int i=0; i<list.size(); i++){
+            System.out.println("@@@@@@@@"+list.get(i));
+         }
          return list;
      }
 }

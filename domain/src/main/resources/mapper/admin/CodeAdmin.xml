@@ -3,8 +3,16 @@
 
 <mapper namespace="com.uplus.domain.admin.mapper.MiniMapper">
     <select id="selectMini" resultType="MiniDTO">
-        SELECT 	NAME,DEVNAME,HDPNO,	BIRTHDATE,CONTENT
+        SELECT 	
+            NAME,
+            DEVNAME,
+            HDPNO,	
+            TO_CHAR(TO_DATE(BIRTHDATE,'YY/MM/DD'),'YY/MM/DD') AS BIRTHDATE,
+            CONTENT
         FROM MASTER
-        WHERE DEVNAME = 'mini'
+        WHERE 1=1
+        <if test='devname != "" and devname != null'>
+            DEVNAME = #{devname}
+        </if>
     </select>
 </mapper>

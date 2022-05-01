@@ -16,7 +16,7 @@ public class MiniServiceImpl implements MiniService {
     }
 
     @Override
-    public List<MiniDTO> selectMini() {
-        return miniMapper.selectMini();
+    public List<MiniDTO> selectMini(MiniDTO miniDTO) {
+        return miniMapper.selectMini(miniDTO);
     } 
 }
