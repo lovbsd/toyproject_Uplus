@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/logintest">
+    <div>
+              <span>
+                  Name:
+              </span>
+        <input type="text" name="name" >
+    </div>
+    <div>
+                <span>
+                    Password:
+                </span>
+        <input type="password" name="password" >
+    </div>
+    <div> templates
+                <span>
+                    Verification Code
+                </span>
+        <input type="text" name="verifycode">
+
+    </div>
+    <div>
+        <a href="javascript:void(0);" title="Click to change the verification code">
+            <img th:src="@{getVerifyCode}" onclick="changeCode()" class="verifyCode"/>
+        </a>
+    </div>
+    <div>
+        <button type="submit">Sign in</button>
+    </div>
+</form>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    function changeCode() {
+        const src = "/getVerifyCode?" + new Date().getTime(); //Timestamp to prevent browsers from utilizing caches
+        $('.verifyCode').attr("src", src);
+    }
+</script>
+</body>
+</html>
