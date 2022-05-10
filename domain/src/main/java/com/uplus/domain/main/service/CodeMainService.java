@@ -1,9 +1,7 @@
 package com.uplus.domain.main.service;
 
-import com.uplus.domain.main.dto.CodeMainDTO;
-
-import java.util.List;
+import com.uplus.domain.common.USER_ROLE;
 
 public interface CodeMainService {
-    List<CodeMainDTO> selectList();
+    USER_ROLE finduser(String id, int password);
 }
