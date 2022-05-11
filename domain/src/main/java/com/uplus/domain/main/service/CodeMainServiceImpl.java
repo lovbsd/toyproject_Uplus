@@ -1,12 +1,8 @@
 package com.uplus.domain.main.service;
 
 import com.uplus.domain.common.USER_ROLE;
-import com.uplus.domain.login.mapper.NoohkiMapper;
-import com.uplus.domain.main.dto.CodeMainDTO;
 import com.uplus.domain.main.mapper.CodeMainMapper;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class CodeMainServiceImpl implements CodeMainService {
@@ -18,7 +14,7 @@ public class CodeMainServiceImpl implements CodeMainService {
     }
 
     @Override
-    public USER_ROLE finduser(String id, int password) {
-        return codeMainMapper.findByIdAndPassword(id,password);
+    public USER_ROLE finduser(String name, int password) {
+        return codeMainMapper.findByNameAndPassword(name,password);
     }
 }
