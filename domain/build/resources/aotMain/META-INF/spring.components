@@ -1,0 +1,15 @@
+#
+#Sat May 14 22:57:08 KST 2022
+com.uplus.domain.common.LoginController=org.springframework.stereotype.Component
+com.uplus.domain.regist.service.CodeRegistServiceImpl=org.springframework.stereotype.Component
+com.uplus.domain.login.controller.NoohkiController=org.springframework.stereotype.Component
+com.uplus.domain.main.service.CodeMainServiceImpl=org.springframework.stereotype.Component
+com.uplus.domain.main.controller.CodeMainController=org.springframework.stereotype.Component
+com.uplus.domain.admin.service.MiniServiceImpl=org.springframework.stereotype.Component
+com.uplus.domain.admin.controller.MiniController=org.springframework.stereotype.Component
+com.uplus.domain.DomainApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.uplus.domain.common.USER_ROLE=javax.persistence.Entity,javax.persistence.Table
+com.uplus.domain.config.AppSettings=org.springframework.stereotype.Component
+com.uplus.domain.regist.controller.CodeRegistController=org.springframework.stereotype.Component
+com.uplus.domain.main.mapper.CodeMainMapper=org.springframework.data.repository.Repository
+com.uplus.domain.login.service.NoohkiServiceImpl=org.springframework.stereotype.Component

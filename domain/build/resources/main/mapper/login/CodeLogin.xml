@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uplus.domain.login.mapper.NoohkiMapper">
+    <select id="selectList" resultType="NoohkiDTO">
+        SELECT 	NAME,DEVNAME,HDPNO,	BIRTHDATE,CONTENT
+        FROM MASTER
+        WHERE DEVNAME = 'Noohki'
+    </select>
+
+
+    <select id="createComment" parameterType="NoohkiDTO">
+        INSERT INTO user_content
+        (contentId, name, content) 
+        VALUES
+        (content_seq.NEXTVAL, #{name}, #{content})
+    </select>
+
+
+</mapper>

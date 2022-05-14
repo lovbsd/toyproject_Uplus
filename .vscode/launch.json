@@ -1,0 +1,32 @@
+{
+<<<<<<< HEAD
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DomainApplication<domain>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.uplus.domain.DomainApplication",
+      "projectName": "domain",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
+=======
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DomainApplication<domain>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.uplus.domain.DomainApplication",
+            "projectName": "domain",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
+>>>>>>> 1b9bd2c704ad1de686cf5645dc16609bd1f549d5

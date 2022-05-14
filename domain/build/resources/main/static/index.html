@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Boldness   
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120422
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Boldness by TEMPLATED</title>
+<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+<script>
+	$(document).ready(function(){ 
+		console.log("PageOnload");
+		$('#mini').on("click",clickMini);
+	});
+
+	// Noohki - Navigation mouseOver event
+	document.getElementById("menu").addEventListener("mouseover", function (event) {
+		element.classList.replace('', 'current_page_item');
+	}, false);
+	document.getElementById("menu").addEventListener("mouseout", function (event) {
+		element.classList.replace('current_page_item', '');
+	}, false);
+
+	// Noohki - click and move to Noohki's Menu
+	function clickNoohki() {
+		alert('Noohki의 메뉴로 이동');
+	};
+
+	function clickMini() {
+		alert("mini");
+	}
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="index.html"><b>Y</b>ou <b>C</b>ode?</a></h1>
+				<p>Design by Noohki</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li><a href="#">Bogus</a></li>
+			<li id="mini"><a href="admin/mini.html">mini</a></li>
+			<li><a href="#">やまもと</a></li>
+			<li id="noohki" onclick="clickNoohki()"><a href="login/index.html">Noohki</id=a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="content">
+			<div id="slider">
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide"> <h1><b>You Code?</b></h1> </div>
+						<div class="slide"> <h1><b>Yes!!!!!!</b></h1> </div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow'
+				});
+			</script>
+
+			<div class="post">
+				<h2 class="title"><a href="#">You Code?</a></h2>
+				<p class="meta">Posted by <a href="#">Someone</a> on April 22, 2012
+					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+				<div class="entry">
+					<p>You Code는 code를 정리해놓고 이를 사용해볼 수 있는 사이트입니다.</p>
+					<p>자유롭게 의견을 공유해주세요..^^</p>
+				</div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
+				<p class="meta">Posted by <a href="#">Someone</a> on April 19, 2012
+					&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+				<div class="entry">
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus </p>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar-bg">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<h2>You Code</h2>
+						<p>현우 창민 익훈 성보</p>
+					</li>
+					<li>
+						<h2>대분류</h2>
+						<ul>
+							<li><a href="#">코드분류1</a></li>
+							<li><a href="#">코드분류2</a></li>
+							<li><a href="#">코드분류3</a></li>
+							<li><a href="#">코드분류4</a></li>
+						</ul>
+					</li>
+					<li>
+						<h2>End</h2>
+						<ul>
+							<p>불펌금지</p>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>2012. Untitled. All rights reserved. Photos by <a href="http://fotogrph.com/">Fotogrph</a>. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
