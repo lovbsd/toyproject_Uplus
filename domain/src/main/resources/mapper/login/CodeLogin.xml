@@ -6,4 +6,14 @@
         FROM MASTER
         WHERE DEVNAME = 'Noohki'
     </select>
+
+
+    <select id="createComment" parameterType="NoohkiDTO">
+        INSERT INTO user_content
+        (contentId, name, content) 
+        VALUES
+        (content_seq.NEXTVAL, #{name}, #{content})
+    </select>
+
+
 </mapper>

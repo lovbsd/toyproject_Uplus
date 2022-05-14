@@ -5,5 +5,5 @@ import com.uplus.domain.admin.dto.MiniDTO;
 import java.util.List;
 
 public interface MiniService {
-    List<MiniDTO> selectMini();
+    List<MiniDTO> selectMini(MiniDTO miniDTO);
 }

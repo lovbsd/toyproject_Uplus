@@ -7,5 +7,5 @@ import java.util.List;
 
 @Mapper
 public interface MiniMapper {
-    List<MiniDTO> selectMini();
+    List<MiniDTO> selectMini(MiniDTO miniDTO);
 }

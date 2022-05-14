@@ -11,6 +11,7 @@ Released   : 20120422
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -65,6 +66,15 @@ Released   : 20120422
 				<div style="font-size: large; text-align: center;">
 					<b>Noohki</b> (POS의 DB서버 관리자)
 				</div>
+			</div>
+			<div class="container">
+				<form action="/comment/new" method="post">
+					<div class="form-group">
+						<label for="comment">댓글</label>
+						<input type="text" id="comment" name="comment" placeholder="댓글을 입력하세요">
+					</div>
+					<button type="submit">등록</button>
+				</form>
 			</div>
 	</div>
 	

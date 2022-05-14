@@ -1,9 +1,9 @@
 package com.uplus.domain.main.service;
 
-import com.uplus.domain.main.dto.CodeMainDTO;
+import com.uplus.domain.common.USER_ROLE;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
-
+@Transactional
 public interface CodeMainService {
-    List<CodeMainDTO> selectList();
+    USER_ROLE finduser(String id, String password);
 }
