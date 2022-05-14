@@ -28,7 +28,10 @@ public class LoginController {
     String id = "hambuger";
     int password = 1234;
 
+
     private final CodeMainService codeMainService;
+
+
     @Autowired
     public LoginController(CodeMainService codeMainService) {
         this.codeMainService = codeMainService;
@@ -40,6 +43,7 @@ public class LoginController {
         logger.debug("model test",model);
         return model;
     }
+
     @RequestMapping("/loginTest111")
     public String login(Model model) {
         ModelAndView modelandview = new ModelAndView("index");
@@ -51,16 +55,7 @@ public class LoginController {
     public USER_ROLE logintests(USER_ROLE user, HttpSession session, String verifycode, Model model)
     {
         USER_ROLE user1 = codeMainService.finduser( id,  password);
-
         String code= (String) session.getAttribute("verifyCode");
-
-//        if (user1 != null && code.equalsIgnoreCase(verifycode)) {
-//            model.addAttribute("message", "Success");
-//            return "entered";
-//        } else {
-//            model.addAttribute("message", "fail");
-//            return "enterFailed";
-//        }
         return user1;
     }
     @GetMapping("/ex_redirect1")

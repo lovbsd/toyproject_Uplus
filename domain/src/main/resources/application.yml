@@ -1,0 +1,7 @@
+jasypt:
+  encryptor:
+    password: bogus
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+my.secret: ENC(7DClmzKx/ITJW0Ws8WKfvw==)

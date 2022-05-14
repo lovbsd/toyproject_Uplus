@@ -55,6 +55,7 @@
     <logger name="org.springframework" additivity="false">
         <level value = "INFO" />
         <appender-ref ref="INFO_LOG" />
+        <appender-ref ref="STDOUT"/>
     </logger>
 
     <logger name="org.mybatis" additivity="false">
