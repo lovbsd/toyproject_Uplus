@@ -14,7 +14,7 @@ public class CodeMainServiceImpl implements CodeMainService {
     }
 
     @Override
-    public USER_ROLE finduser(String name, int password) {
-        return codeMainMapper.findByNameAndPassword(name,password);
+    public USER_ROLE finduser(String name, String password) {
+        return codeMainMapper.findByNameAndPassword(name, Integer.parseInt(password));
     }
 }

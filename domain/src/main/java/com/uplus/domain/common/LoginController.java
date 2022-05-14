@@ -26,7 +26,7 @@ import java.net.URISyntaxException;
 public class LoginController {
     final static Logger logger = LoggerFactory.getLogger(LoginController.class);
     String id = "hambuger";
-    int password = 1234;
+    String password = "${my.secr}";
 
 
     private final CodeMainService codeMainService;
